@@ -96,7 +96,17 @@ form{
   padding:0 22px;
   font-size:16px;
 }
-
+/* specific styling(id) for individual form elements(input) */
+#lastname{
+  position: relative;
+  left:417px;
+  top:-80px;
+  line-height:40px;
+  border-radius:6px;
+  padding:0 22px;
+  font-size:16px;
+  color:#555;
+}
   /* for the label under first-name textbox */
 #firstlabel{
   position: relative;
@@ -106,4 +116,126 @@ form{
   text-transform: capitalize;
   font-size:14px;
 
+}
+  /* for the label under first-name textbox */
+#lastlabel{
+  position: relative;
+  left:495px;
+  top:-75px;
+  color:#E5E5E5;
+  text-transform: capitalize;
+  font-size:14px;
+}
+/* specific styling(id) for individual form elements(input) */
+#profession{
+  position: relative;
+  left:200px;
+  top:-37px;
+  border-radius:6px;
+  width: 480px;
+  padding:0 22px;
+  font-size:16px;
+  color: #555;
+  line-height: 40px;
+}
+/* specific styling(id) for individual form elements(input) */
+#email{
+  position: relative;
+  left:200px;
+  top:-37px;
+  border-radius:6px;
+  width: 480px;
+  padding:0 22px;
+  font-size:16px;
+  color: #555;
+  line-height: 40px;
+}
+/* specific styling(id) for individual form elements(input) */
+#dateofbirth{
+  position: relative;
+  left:200px;
+  top:-37px;
+  border-radius:6px;
+  width: 170px;
+  padding:0 22px;
+  font-size:16px;
+  color: #555;
+  line-height: 40px;
+}
+/* specific styling(id) for individual form elements(input) */
+#mobile{
+  position: relative;
+  left:200px;
+  top:-37px;
+  border-radius:6px;
+  width: 220;
+  padding:0 22px;
+  font-size:16px;
+  color: #555;
+  line-height: 40px;
+}
+/* specific styling(id) for individual form elements(input) */
+#state{
+  position: relative;
+  left:200px;
+  top:-37px;
+  border-radius:6px;
+  width: 217px;
+  padding:0 22px;
+  height:40px;
+  font-size:16px;
+  color: #555;
+  line-height: 40px;
+  outline: none;
+  overflow: hidden;
+}
+/* specific styling(id) for individual form elements(input) */
+#travel{
+  margin-left: 25px;
+  margin-top: 10px;
+  color: white;
+  font-size: 18px;
+}
+/* specific styling(id) for individual form elements(input) */
+#symptoms{
+  margin-left: 25px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 18px;
+  margin-top:15px
+}
+/* specific styling(id) for individual form elements(input) */
+#centers{
+  margin-left: 25px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 18px;
+  margin-top:15px
+}
+/* class to style checkbox input elements in one row -
+flex, justify-content to spread them out evenly */
+.arrange{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  color: white;
+  margin-top: 20px;
+}
+/* specific styling(id) for individual form elements(input) */
+#submit {
+  background-color: #3BAF;
+  display: block;
+  margin: 20px 0px 0px 20px;
+  text-align: center;
+  border-radius: 12px;
+  border:2px solid #366473;
+  padding: 14px 110px;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.25px;
+}
+/* change button style using hover selector */
+#submit:hover{
+  background-color: #5390F5;
 }
